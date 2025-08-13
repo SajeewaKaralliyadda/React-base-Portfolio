@@ -8,6 +8,7 @@ import Skills from "./Skills.jsx";
 import Education from "./Education.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
+import Certifications from "./Certifications.jsx";
 
 // Components
 import NavBar from "./Componant/NavBar.jsx";
@@ -24,6 +25,7 @@ function App() {
       <Education />
       <Projects />
       <Contact />
+      <Certifications />
     </>
   );
 }

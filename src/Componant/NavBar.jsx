@@ -31,11 +31,6 @@ const NavBar = () => {
           <button className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition">
             ☀️
           </button>
-          <img
-            src="../../src/assets/img/profilepic.jpg"
-            alt="Profile"
-            className="w-10 h-10 rounded-full border-2 border-gray-700"
-          />
         </div>
 
         {/* Mobile Menu Button */}

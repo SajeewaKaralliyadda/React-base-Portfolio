@@ -1,54 +1,92 @@
-import React from "react";
+import { FaGraduationCap, FaCertificate, FaAward } from "react-icons/fa";
 
-const Education = () => {
-  const educationData = [
+const educationData = {
+  formal: [
     {
-      degree: "BSc (Hons) in Information Technology",
-      institution: "University of Moratuwa, Sri Lanka",
+      title: "BSc (Hons) in Information Technology & Managment",
+      institution: "University of Moratuwa",
       year: "2022 - Present",
-      details:
-        "Specializing in software engineering, web development, and data science.",
     },
     {
-      degree: "G.C.E. Advanced Level",
-      institution: "Your School Name",
-      year: "2019 - 2021",
-      details:
-        "Focused on Physical Science stream (Mathematics, Physics, and Chemistry).",
+      title: "Advanced Level",
+      institution: "  Darmaraja College, Kandy",
+      year: "2018 - 2020",
     },
     {
-      degree: "G.C.E. Ordinary Level",
-      institution: "Your School Name",
-      year: "Completed in 2018",
-      details:
-        "Achieved excellent grades in Mathematics, Science, and English.",
+      title: "Ordinary Level",
+      institution: "Teldeniya National School",
+      year: "2017",
     },
-  ];
+  ],
+  diplomas: [
+    {
+      title: "Diploma in English",
+      institution: "SIBA Campus, Pallekele",
+      year: "2018",
+    },
+    {
+      title: "Diploma in Information Technology",
+      institution: "SIBA Campus, Pallekele",
+      year: "2018",
+    },
+  ],
+  certifications: [
+    {
+      title: "Programming in Python - 1. Python for Beginners",
+      institution: "Open Learning Platform at University of Moratuwa",
+      year: "2022",
+    },
+    {
+      title: " Web Development - 1. Web Design for Beginners",
+      institution: "Open Learning Platform at University of Moratuwa",
+      year: "2022",
+    },
+  ],
+};
+
+export default function Education() {
+  const renderCards = (items) =>
+    items.map((item, index) => (
+      <div
+        key={index}
+        className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-5 hover:shadow-lg transition">
+        <h3 className="text-lg font-bold text-gray-800 dark:text-white">
+          {item.title}
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300">{item.institution}</p>
+        <span className="text-sm text-gray-500 dark:text-gray-400">
+          {item.year}
+        </span>
+      </div>
+    ));
 
   return (
-    <section
-      id="education"
-      className="min-h-screen flex flex-col items-center px-6 md:px-20 bg-gray-900 text-white py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-blue-400 mb-10">
-        Education
-      </h2>
+    <section className="py-12 px-6 bg-gray-50 dark:bg-gray-900">
+      <div className="max-w-6xl mx-auto">
+        {/* Formal Education */}
+        <h2 className="flex items-center text-2xl font-bold mb-6 text-gray-800 dark:text-white">
+          <FaGraduationCap className="mr-3 text-blue-500" /> Formal Education
+        </h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {renderCards(educationData.formal)}
+        </div>
 
-      <div className="relative border-l-4 border-blue-500 pl-8 space-y-10">
-        {educationData.map((edu, index) => (
-          <div key={index} className="relative">
-            {/* Dot */}
-            <div className="absolute -left-[1.15rem] top-1 w-6 h-6 bg-blue-500 rounded-full border-4 border-gray-900"></div>
+        {/* Diplomas */}
+        <h2 className="flex items-center text-2xl font-bold mt-12 mb-6 text-gray-800 dark:text-white">
+          <FaCertificate className="mr-3 text-green-500" /> Diplomas
+        </h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {renderCards(educationData.diplomas)}
+        </div>
 
-            {/* Content */}
-            <h3 className="text-xl font-semibold">{edu.degree}</h3>
-            <p className="text-blue-300">{edu.institution}</p>
-            <p className="text-sm text-gray-400">{edu.year}</p>
-            <p className="mt-2 text-gray-300">{edu.details}</p>
-          </div>
-        ))}
+        {/* Certifications */}
+        <h2 className="flex items-center text-2xl font-bold mt-12 mb-6 text-gray-800 dark:text-white">
+          <FaAward className="mr-3 text-yellow-500" /> Certifications
+        </h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {renderCards(educationData.certifications)}
+        </div>
       </div>
     </section>
   );
-};
-
-export default Education;
+}

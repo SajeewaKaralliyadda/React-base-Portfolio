@@ -27,10 +27,9 @@ const Home = () => {
         <a
           href="#projects"
           className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition">
-          View Projects <HiArrowNarrowRight className="text-xl" />
+          Get My CV <HiArrowNarrowRight className="text-xl" />
         </a>
       </div>
-
       {/* Profile Image */}
       <div className="z-10 mb-10 md:mb-0">
         <img
