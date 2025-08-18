@@ -1,4 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import SocialLink from "../ReusableUiComponents/SocialLink";
+import {
+  User,
+  Mail,
+  FileText,
+  Github,
+  Linkedin,
+  ChevronDown,
+} from "lucide-react";
 
 const HeroSection = () => (
   <section className="min-h-screen py-20">

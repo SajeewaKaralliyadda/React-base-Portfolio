@@ -1,8 +1,9 @@
-import Navigation from "./CoreComponents/Navigation";
+import Portfolio from "./CoreComponents/Portfolio";
+
 const App = () => {
   return (
     <>
-      <Navigation />
+      <Portfolio />
     </>
   );
 };

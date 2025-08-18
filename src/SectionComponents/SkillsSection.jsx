@@ -1,5 +1,7 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
+import GlassCard from "../ReusableUiComponents/GlassCard";
+import SectionHeader from "../ReusableUiComponents/SectionHeader";
+import SkillBar from "../ReusableUiComponents/SkillBar";
 const SkillsSection = () => {
   const skills = [
     { name: "JavaScript", level: 90, category: "Frontend" },
