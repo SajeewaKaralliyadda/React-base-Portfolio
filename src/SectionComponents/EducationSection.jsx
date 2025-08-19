@@ -5,29 +5,55 @@ const EducationSection = () => {
   const education = [
     {
       type: "University",
-      title: "Bachelor of Information Technology",
-      institution: "University Name",
+      title: "BSc. (Hons) in Information Technology & Management",
+      institution: "University of Moratuwa",
       period: "2022 - Present",
       status: "Level 3 - In Progress",
+      description: "Specializing in Software Development and Management",
+    },
+    {
+      type: "Secondary Education",
+      title: "G.C.E. Advanced Level",
+      institution: "Darmashoka College, Kandy",
+      period: "2018 - 2020",
+      status: "Completed",
       description:
-        "Specializing in Software Development and System Architecture",
+        "Successfully completed with focus on Geography, Economics, and Loogic & Scientific Method",
     },
     {
       type: "Course",
-      title: "Full Stack Web Development",
-      institution: "Online Platform",
-      period: "2024",
+      title: "Programming in Python - 1. Python for Beginners",
+      institution: "Open Learning Platform",
+      period: "2022",
       status: "Completed",
-      description:
-        "Comprehensive course covering React, Node.js, and database management",
+      description: "successfully completed a Python for Beginners course",
     },
+
     {
       type: "Course",
-      title: "AWS Cloud Practitioner",
-      institution: "Amazon Web Services",
-      period: "2023",
+      title: "Web Development - 1. Web Design for Beginners",
+      institution: "Open Learning Platform",
+      period: "2022",
       status: "Completed",
-      description: "Cloud computing fundamentals and AWS services",
+      description: "successfully completed a Web Design for Beginners course",
+    },
+
+    {
+      type: "Diploma",
+      title: "Diploma in IT",
+      institution: "SIBA Campus, Kandy",
+      period: "2018",
+      status: "Completed",
+      description: "successfully completed a Diploma in IT course",
+    },
+
+    {
+      type: "Course",
+      title: "Diploma in English",
+      institution: "SIBA Campus, Kandy",
+      period: "2018",
+      status: "Completed",
+      description: "successfully completed a Diploma in English course",
     },
   ];
 

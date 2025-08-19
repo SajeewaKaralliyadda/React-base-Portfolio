@@ -7,6 +7,7 @@ import EducationSection from "../SectionComponents/EducationSection";
 import ProjectsSection from "../SectionComponents/ProjectsSection";
 import CertificationsSection from "../SectionComponents/CertificationsSection";
 import ContactSection from "../SectionComponents/ContactSection";
+import Footer from "./Footer";
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -52,6 +53,7 @@ const Portfolio = () => {
       />
 
       {renderSection()}
+      <Footer setActiveSection={setActiveSection} />
     </div>
   );
 };

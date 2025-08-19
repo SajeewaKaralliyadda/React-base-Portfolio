@@ -5,26 +5,34 @@ import CertificationCard from "../ReusableUiComponents/CertificationCard";
 const CertificationsSection = () => {
   const certifications = [
     {
+      title: "AlgoXPLORE 1.0 a Hackathon and Capture the flag Challange",
+      issuer: "Faculty of Computing, NIBM Green University.",
+      date: "2024",
+      type: "Competition",
+      //credentialId: "AWS-CCP-2023-001",
+    },
+    {
+      title: "Python for Beginners E-Certificate",
+      issuer: "Open Learning Platform, University of Moratuwa",
+      date: "2022",
+      type: "Course",
+      //credentialId: "META-REACT-2024",
+    },
+    {
+      title: "Web Design for Beginners E-Certificate",
+      issuer: "Open Learning Platform, University of Moratuwa",
+      date: "2022",
+      type: "Course",
+      //credentialId: "HACK-2024-WIN",
+    },
+
+    /*{
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
       date: "2023",
       type: "Professional",
       credentialId: "AWS-CCP-2023-001",
-    },
-    {
-      title: "React Developer Certification",
-      issuer: "Meta",
-      date: "2024",
-      type: "Course",
-      credentialId: "META-REACT-2024",
-    },
-    {
-      title: "Hackathon Winner - Best Innovation",
-      issuer: "TechFest 2024",
-      date: "2024",
-      type: "Competition",
-      credentialId: "HACK-2024-WIN",
-    },
+    },*/
   ];
 
   return (

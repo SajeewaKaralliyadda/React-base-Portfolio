@@ -4,37 +4,90 @@ import ProjectCard from "../ReusableUiComponents/ProjectCard";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Portfolio Website v2.0",
       description:
-        "Full-stack e-commerce solution with React frontend and Node.js backend",
-      tech: ["React", "Node.js", "MongoDB", "Stripe API"],
+        "My personal portfolio showcasing projects and skills with React and Tailwind CSS.",
+      tech: ["React", "Tailwind CSS"],
+      status: "In Progress",
+      github: "https://github.com/SajeewaKaralliyadda/React-base-Portfolio",
+      live: "#",
+      image: "../src/assets/img/portfoliov2.png",
+    },
+    {
+      title: "WayFinde",
+      description:
+        "Full-stack web application for Connect travelers and plan own trips",
+      tech: ["React", ".NET", "Azure Sql", "Stripe API"],
       status: "Completed",
-      github: "#",
+      github: "https://github.com/SajeewaKaralliyadda/WayFinde",
       live: "#",
       image:
         "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
     },
     {
-      title: "Task Management App",
+      title: "Maxol Custom Theme",
       description:
-        "Real-time collaborative task management with drag-and-drop functionality",
-      tech: ["React", "Socket.io", "Express", "PostgreSQL"],
-      status: "In Progress",
-      github: "#",
+        "Herbal & Cocopeat Product Website's cusrom theme for Ghost CMS platform.",
+      tech: ["Handlebars (HBS)", "JavaScript", "Ghost Routing & Themes"],
+      status: "Completed",
+      github: "https://github.com/SajeewaKaralliyadda/Maxol-custom-theme",
       live: "#",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
+      image: "../src/assets/img/maxol.png",
     },
+
     {
-      title: "Weather Analytics Dashboard",
+      title: "Portfolio Website v1.0",
       description:
-        "Data visualization dashboard for weather patterns and predictions",
-      tech: ["React", "D3.js", "Python", "FastAPI"],
+        "My personal portfolio showcasing projects and skills with HTML, CSS, JavaScript, PHP, and Bootstrap.",
+      tech: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap"],
+      status: "Completed",
+      github:
+        "https://github.com/SajeewaKaralliyadda/SajeewaKaralliyadda.github.io.git",
+      live: "https://sajeewakaralliyadda.github.io/",
+      image: "../src/assets/img/portfolioV1.png",
+    },
+
+    {
+      title: "Iskole",
+      description:
+        "This project is a comprehensive Education Management System developed using Laravel. It provides features for users to view available courses, enroll in courses, and manage their personal dashboard, focusing on user experience and functionality.",
+      tech: ["Laravel", "TMySQL", "PHP", "HTML", "CSS", "JavaScript"],
+      status: "Completed",
+      github: "https://github.com/SajeewaKaralliyadda/Iskole",
+      live: "#",
+      image: "../../src/assets/img/iskole.png",
+    },
+
+    {
+      title: "Care plus",
+      description:
+        "This project is a comprehensive Health Management System called CarePlus, developed using Laravel. It focuses on providing an efficient platform for users to find doctors, manage appointments, and maintain a seamless user experience.",
+      tech: ["Laravel", "TMySQL", "PHP", "HTML", "CSS", "JavaScript"],
       status: "Completed",
       github: "#",
       live: "#",
-      image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      image: "../../src/assets/img/careplus.png",
+    },
+
+    {
+      title: "Shopper.com",
+      description:
+        "This project is a comprehensive E-Commerce Website called Shopper.com, developed to deliver a seamless online shopping experience. It integrates modern technologies to ensure optimal performance and user satisfaction. ",
+      tech: ["React JS", "MongoDB", "Express", "Node.js"],
+      status: "In Progress",
+      github: "https://github.com/SajeewaKaralliyadda/Shopper.com",
+      live: "#",
+      image: "../src/assets/img/shopper.png",
+    },
+    {
+      title: "Online Guru",
+      description:
+        "Online Guru is an educational platform designed to showcase the institution’s offerings and provide detailed information for prospective students. This project is done for education purposely",
+      tech: ["HTML", "CSS", "JavaScript"],
+      status: "Completed",
+      github: "#",
+      live: "#",
+      image: "../src/assets/img/onlineguru.png",
     },
   ];
 
