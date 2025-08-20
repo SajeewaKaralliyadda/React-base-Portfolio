@@ -25,7 +25,6 @@ const SkillsSection = () => {
     { name: "Laravel", description: "", category: "Backend" },
     { name: "Express", description: "", category: "Backend" },
     //{ name: "GraphQL", description: "", category: "Backend" },
-    { name: "MongoDB", description: "", category: "Database" },
     {
       name: "Azure SQL",
       description: "",

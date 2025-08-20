@@ -164,7 +164,10 @@ const Footer = ({ setActiveSection }) => {
 
             {/* Back to Top */}
             <button
-              onClick={() => setActiveSection("home")}
+              onClick={() => {
+                setActiveSection("home");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
               className="flex items-center space-x-2 px-4 py-2 bg-white/10 rounded-full hover:bg-white/20 transform hover:scale-105 transition-all duration-300 group">
               <ChevronDown
                 size={16}

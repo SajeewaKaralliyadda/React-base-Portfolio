@@ -8,10 +8,12 @@ const SkillIcon = ({ skill }) => {
       "Node.js": "🟢",
       Python: "🐍",
       MongoDB: "🍃",
+      MySQL: "🛢️",
+      "Azure SQL": "🔷",
       PostgreSQL: "🐘",
       AWS: "☁️",
       Docker: "🐳",
-      Git: "📝",
+      Git: "🔧",
       "VS Code": "💻",
       HTML: "🌐",
       CSS: "🎨",
@@ -23,7 +25,15 @@ const SkillIcon = ({ skill }) => {
       Redis: "🔴",
       Firebase: "🔥",
       Kubernetes: "☸️",
+      Laravel: "🟥",
+      ".Net": "🖥️",
+      // --- Soft Skills ---
+      "Problem-Solving": "🧩",
+      "Team Work": "🤝",
+      Presentation: "📊",
+      Communication: "💬",
     };
+
     return iconMap[skillName] || "⚙️";
   };
 

@@ -36,10 +36,13 @@ const HeroSection = () => (
               <Mail size={20} />
               <span>Get In Touch</span>
             </button>
-            <button className="flex items-center space-x-2 border border-white/30 px-8 py-4 rounded-full text-white font-semibold hover:bg-white/10 transform hover:scale-105 transition-all duration-300">
+            <a
+              href="/Sajeewa_Karalliyadda.pdf"
+              download
+              className="flex items-center space-x-2 border border-white/30 px-8 py-4 rounded-full text-white font-semibold hover:bg-white/10 transform hover:scale-105 transition-all duration-300">
               <FileText size={20} />
               <span>View Resume</span>
-            </button>
+            </a>
           </div>
           <div className="flex justify-center space-x-6">
             <SocialLink
