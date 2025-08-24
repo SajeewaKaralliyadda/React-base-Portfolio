@@ -16,7 +16,7 @@ const HeroSection = () => (
         <div className="mb-8">
           <div className="w-48 h-48 mx-auto bg-gradient-to-r from-purple-500 to-pink-500 rounded-full p-1 mb-8">
             <img
-              src="src/assets/img/profilepic.jpg"
+              src="/Image/profolepic.jpg"
               alt="{'user'}"
               className="w-full h-full bg-slate-900 rounded-full flex items-center justify-center"
             />

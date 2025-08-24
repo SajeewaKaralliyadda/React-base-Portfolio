@@ -11,7 +11,7 @@ const ProjectsSection = () => {
       status: "In Progress",
       github: "https://github.com/SajeewaKaralliyadda/React-base-Portfolio",
       live: "#",
-      image: "src/assets/img/portfoliov2.png",
+      image: "/Image/portfoliov2.png",
     },
     {
       title: "WayFinde",
@@ -32,7 +32,7 @@ const ProjectsSection = () => {
       status: "Completed",
       github: "https://github.com/SajeewaKaralliyadda/Maxol-custom-theme",
       live: "#",
-      image: "src/assets/img/maxol.png",
+      image: "/Image/maxol.png",
     },
 
     {
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
       github:
         "https://github.com/SajeewaKaralliyadda/SajeewaKaralliyadda.github.io.git",
       live: "https://sajeewakaralliyadda.github.io/",
-      image: "src/assets/img/portfolioV1.png",
+      image: "/Image/portfolioV1.png",
     },
 
     {
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
       status: "Completed",
       github: "https://github.com/SajeewaKaralliyadda/Iskole",
       live: "#",
-      image: "src/assets/img/iskole.png",
+      image: "/Image/iskole.png",
     },
 
     {
@@ -66,7 +66,7 @@ const ProjectsSection = () => {
       status: "Completed",
       github: "#",
       live: "#",
-      image: "src/assets/img/careplus.png",
+      image: "/Image/careplus.png",
     },
 
     {
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
       status: "In Progress",
       github: "https://github.com/SajeewaKaralliyadda/Shopper.com",
       live: "#",
-      image: "src/assets/img/shopper.png",
+      image: "/Image/shopper.png",
     },
     {
       title: "Online Guru",
@@ -87,7 +87,7 @@ const ProjectsSection = () => {
       status: "Completed",
       github: "#",
       live: "#",
-      image: "src/assets/img/onlineguru.png",
+      image: "/Image/onlineguru.png",
     },
   ];
 
