@@ -14,7 +14,7 @@ const EducationSection = () => {
     {
       type: "Secondary Education",
       title: "G.C.E. Advanced Level",
-      institution: "Darmashoka College, Kandy",
+      institution: "Dharmaraja College, Kandy",
       period: "2018 - 2020",
       status: "Completed",
       description:
